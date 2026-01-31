@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulrio de contacto</title>
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="logo">
+        </div>
+        
+        <nav class="navegacion">
+            <ul>
+                <li><a href="index.html#inicio">Inicio</a></li>
+                <li><a href="index.html#nosotros">Nosotros</a></li>
+                <li><a href="index.html#servicios">Servicios</a></li>
+                <li><a href="index.html#beneficios">Beneficios</a></li>
+            </ul>
+
+            
+        </nav>
+        <a href="formulario.html" class="contacto">Contacto</a>
+
+        <button class="menu-hamburguesa" id="menuBtn">
+            <img src="images/menu.png" alt="Menú">
+        </button>
+    </header>
+
+<!-----------------------------Formulario----------------------------------------------->
+    <section class="contact" id="contact">
+        <h1>Contáctanos</h1>
+        <div class="container-contacto">
+            <img src="images/contacto.jpg" alt="imagen de Contacto" class="uno">
+        
+            <form action="" class="form-contacto">
+
+                <div class="datos">
+
+                    <div class="campo">
+                            <label for="name">Nombre</label>
+                            <input type="text" name="nombre" id="nombre" required>
+                    </div>
+
+                    <div class="campo">
+                            <label for="apellido">Apellido</label>
+                            <input type="text" name="apellido" id="apellido" required>
+                    </div>
+
+                </div>
+
+                <div class="campo">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" placeholder="ejemplo@gmail.com" required>
+                </div>
+
+                <div class="campo">
+                    <label for="asunto">Asunto</label>
+                    <input 
+                        type="text" 
+                        id="asunto" 
+                        name="asunto" 
+                        placeholder="Motivo del contacto"
+                        required
+                    >
+                </div>
+
+                <div class="campo">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" placeholder="Escribe tu mensaje aquí" rows="5" required></textarea>
+                </div>
+
+                <button type="submit">Enviar mensaje</button>
+            </form>
+
+        </div>
+
+        
+    </section>
+
+      <footer>
+        <div class="footer-contenido">
+
+            <div class="ecoapp">
+                <img src="images/logo.png" alt="logo eco app">
+                <p>Trabajando por un fututo limpio y sostenible.</p>
+                <h4>Síguenos</h4>
+                <div class="redes">
+                    <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+                    <a href="#"><img src="images/instagram (2).png" alt="Instagram"></a>
+                </div>
+            </div>
+
+            <div class="links">
+                <h4>Únete al equipo</h4>
+                <div class="cont">
+                    <a href="formulario.html" class="boton-unete">Contáctanos</a>
+                    <a href="formulario.html" class="boton-unete">Nuestro Equipo</a>
+                    <a href="formulario.html" class="boton-unete">Beneficios</a>
+                    <a href="formulario.html" class="boton-unete">Envía tu CV</a>
+                </div>
+            </div>
+
+            <div class="links">
+                <h4>Políticas</h4>
+                <div class="cont">
+                    <a href="formulario.html" class="boton-unete">Libro de reclamaciones</a>
+                    <a href="formulario.html" class="boton-unete">Políticas de privacidad</a>
+                    <a href="formulario.html" class="boton-unete">Términos y condiciones</a>
+                    
+                </div>
+            </div>
+            
+        </div>
+        <p>&copy; 2026 EcoApp. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
